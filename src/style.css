@@ -1,5 +1,63 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+  background: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#card {
+  background-color: white;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+}
+
+.palOfCardTop {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 50px;
+}
+
+.palOfCardBottom {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+.numberOfCard {
+  font-size: 60px;
+  text-align: center;
+}
+
+.buttonGenerator {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
 }
