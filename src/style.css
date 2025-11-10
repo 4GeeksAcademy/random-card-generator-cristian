@@ -9,6 +9,11 @@ body {
   height: 100vh;
   margin: 0;
 }
+#container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
 #card {
   background-color: white;
